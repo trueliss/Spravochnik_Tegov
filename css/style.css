@@ -1,0 +1,39 @@
+body {
+    color: blueviolet;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header {
+    color: white;
+    background-color: brown;
+    margin: 20px auto;
+    padding: 40px 40px 40px 40px;
+    border-color: rgb(245, 161, 6);
+    border-style: solid;
+    border-radius: 64px;
+    box-shadow: 5px 5px 10px rgba(221, 161, 72, 0.5);
+}
+
+#format {
+    background-color: aqua;
+}
+
+b, i, del {
+    background-color: blanchedalmond;
+}
+
+.main_title {
+    color: crimson;
+}
+.site_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.site_menu li {
+    padding: 20px;
+}
